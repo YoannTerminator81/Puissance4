@@ -1,0 +1,4 @@
+'''
+
+'''
+def grille_valide()
