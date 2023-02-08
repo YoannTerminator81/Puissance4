@@ -1,4 +1,0 @@
-'''
-
-'''
-def grille_valide()
