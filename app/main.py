@@ -1,7 +1,25 @@
 import tkinter as tk
 
+global hauteur
+global largeur
+hauteur = []
+largeur = []
+
+def verifier(i,j):
+    
+    try :
+        hauteur[i]
+        largeur[j]
+    except :
+        print("cette position va être créée")
+        hauteur.append(i)
+        largeur.append(j)
+
+    print(i,j)
+
 def button_click(i, j):
     print(str(i) + str(j))
+    verifier(i,j)
 
 root = tk.Tk()
 
@@ -13,4 +31,4 @@ def grid(hauteur,largeur):
 
     root.mainloop()
     
-grid(9,6)
+grid(3,4)
