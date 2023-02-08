@@ -2,18 +2,18 @@ import tkinter as tk
 
 global hauteur
 global largeur
-hauteur = []
-largeur = []
+hauteur = [0]*6
+largeur = [0]*7
 
 def verifier(i,j):
-    
-    try :
-        hauteur[i]
-        largeur[j]
-    except :
+
+    if i != 0 or j != 0:
+        print("le point existe un test va etre effectué")
+    else :
         print("cette position va être créée")
         hauteur.append(i)
         largeur.append(j)
+  
 
     print(i,j)
 
