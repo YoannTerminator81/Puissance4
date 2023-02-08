@@ -8,6 +8,7 @@ global largeur
 hauteur = []
 largeur = []
 
+#Ajoute dans les tableaux les coordonnées du bouton cliqué
 def verifier(i,j):
     
     try :
