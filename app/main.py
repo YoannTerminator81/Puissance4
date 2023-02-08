@@ -1,3 +1,6 @@
+'''
+Jeu Puissance4
+'''
 import tkinter as tk
 
 global hauteur
@@ -5,6 +8,7 @@ global largeur
 hauteur = [0]*6
 largeur = [0]*7
 
+#Ajoute dans les tableaux les coordonnées du bouton cliqué
 def verifier(i,j):
 
     if i != 0 or j != 0:
@@ -23,6 +27,7 @@ def button_click(i, j):
 
 root = tk.Tk()
 
+#Création de l'UI
 def grid(hauteur,largeur):
     for i in range(hauteur):
         for j in range(largeur):
@@ -31,4 +36,7 @@ def grid(hauteur,largeur):
 
     root.mainloop()
     
-grid(3,4)
+grid(7,6)
+
+        
+
